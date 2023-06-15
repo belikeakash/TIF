@@ -1,0 +1,152 @@
+.article {
+    margin-top: 159px;
+    /* position: absolute; */
+    margin-left: 114px;
+    margin-right: 114px;
+}
+
+.article-head {
+width: 461px;
+height: 84px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 42px;
+/* or 75% */
+
+letter-spacing: 0.04em;
+
+/* primary */
+
+color: #0E2368;
+}
+
+.article-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.article-controllers {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+    
+}
+
+
+.controllers {
+    display: flex;
+    width: 114px;
+    justify-content: space-around;
+}
+
+.icons {
+    border: 1px solid #424961;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 29px;
+}
+
+.contoller-text{
+    width: 30px;
+height: 28px;
+left: 2145px;
+top: 2359px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height, or 124% */
+
+
+color: #424961;
+}
+
+@media (max-width: 376px) {
+    .article {
+        margin: 132px auto 0;
+        /* position: absolute; */
+    }
+    
+    .article-head {
+    width: 216px;
+    height: 54px;
+    margin:  0 auto;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 54px;
+    /* or 75% */
+    
+    letter-spacing: 0.04em;
+    
+    /* primary */
+    
+    color: #0E2368;
+    }
+    
+    .article-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 375px;
+    }
+    
+
+
+    .article-controllers {
+        margin-top: 49px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 49px;
+        height: 16px;
+    }
+    
+    
+    .controllers {
+        display: flex;
+        width: 63px;
+        justify-content: space-around;
+    }
+    
+    .icons {
+        border: 1px solid #424961;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16px;
+        height: 16px;
+    }
+    
+    .contoller-text{
+        width: 17px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    /* identical to box height, or 124% */
+    
+    
+    color: #424961;
+    }
+
+    .icons > svg {
+        font-size: 10px;
+    }
+    
+}

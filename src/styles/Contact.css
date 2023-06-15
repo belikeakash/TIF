@@ -1,0 +1,356 @@
+.contact {
+    padding-left: 104px;
+    height: 362px;
+    background: #F8F8F8;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-img>img {
+    margin-top: 122px;
+    width: 161px;
+    height: 125px;
+    margin-bottom: 122px;
+}
+
+.contact-details {
+    margin-left: 211px;
+    margin-top: 84px;
+
+}
+
+.contact-details-head {
+    width: 94px;
+    height: 27px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.8433px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #0E2368;
+
+}
+
+.contact-location {
+    margin-top: 14px;
+    width: 217px;
+    height: 69px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.6559px;
+    line-height: 23px;
+    color: #646874;
+}
+
+.contact-email {
+    margin-top: 15;
+    width: 232px;
+    height: 23px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.6559px;
+    line-height: 23px;
+    color: #646874;
+}
+
+.contact-number {
+    margin-top: 15px;
+    width: 91px;
+    height: 23px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.6559px;
+    line-height: 23px;
+    text-align: center;
+    color: #646874;
+}
+
+.contact-block {
+    margin-top: 84px;
+    width: 438px;
+    height: 186px;
+    margin-left: 206px;
+    display: flex;
+}
+
+.contact-block-more-list-head {
+
+    width: 43px;
+    height: 27px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.8433px;
+    line-height: 27px;
+    /* or 144% */
+
+    letter-spacing: 0.03em;
+
+    /* primary */
+
+    color: #0E2368;
+    /* margin-bottom: 7px; */
+}
+
+.contact-block-more-list>div {
+    /* margin: 7px 0; */
+    margin-top: 14px;
+    width: 75px;
+    height: 26px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.6559px;
+    line-height: 23px;
+    /* or 186% */
+
+
+    color: #646874;
+}
+
+.contact-social {
+    margin-left: 266px;
+}
+
+.socials {
+    width: 129px;
+    height: 27px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 27px;
+    /* identical to box height, or 142% */
+
+    letter-spacing: 0.03em;
+
+    color: #0E2368;
+}
+
+.socialicons {
+    margin-top: 14px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.socialicons>svg {
+    height: 21px;
+    width: 21px;
+    color: #0E2368;
+}
+
+.conatct-trademark {
+    margin-top: 103px;
+    position: absolute;
+    width: 197px;
+    height: 25px;
+    right: 150px;
+    ;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.6559px;
+    line-height: 25px;
+    /* or 171% */
+
+    text-align: center;
+
+    /* #828B9C */
+
+    color: #828B9C;
+}
+
+@media (max-width: 376px) {
+    .contact {
+        /* padding-left: 52px; */
+        height: auto;
+        padding: 0 42px;
+        background: #F8F8F8;
+    }
+    
+    .contact-container {
+        display: block;
+    }
+    .contact-img {
+        display: flex;
+    }
+    .contact-img>img {
+        margin-top: 52px;
+        width: 75px;
+        height: 58px;
+        text-align: center;
+        margin: 52px auto 0;
+        /* margin-bottom: 122px; */
+    }
+    
+    .contact-details {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 42px;
+    
+    }
+
+    .contact-details-head {
+        /* width: 94px; */
+        height: 35px;
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15.771px;
+        line-height: 35px;
+        letter-spacing: 0.03em;
+        color: #0E2368;
+    
+    }
+    
+    .contact-location {
+        margin-top: 0px;
+        width: 275px;
+        height: 25px;
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8.76168px;
+        line-height: 12px;
+        color: #646874;
+    }
+    
+    .contact-email {
+        margin-top: 0;
+        width: 293px;
+        height: 29px;
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8.76168px;
+        line-height: 29px;
+        color: #646874;
+    }
+    
+    .contact-number {
+        margin-top: 0px;
+        width: 54px;
+        height: 30px;
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8.76168px;
+        line-height: 29px;
+        text-align: center;
+        color: #646874;
+    }
+    
+    .contact-block {
+        margin-top: 29px;
+        width: auto;
+        height: auto;
+        margin-left: 0px;
+        display: block;
+    }
+    
+    .contact-block-more-list-head {
+    
+        width: 55px;
+        height: 35px;
+    
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15.771px;
+        line-height: 35px;
+        /* or 144% */
+    
+        letter-spacing: 0.03em;
+    
+        /* primary */
+    
+        color: #0E2368;
+        /* margin-bottom: 7px; */
+    }
+    
+    .contact-block-more-list>div {
+        /* margin: 7px 0; */
+        margin-top: 0px;
+        width: 71px;
+        height: 22px;
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8.76168px;
+        line-height: 35px;
+        /* or 186% */
+    
+    
+        color: #646874;
+    }
+    
+    .contact-social {
+        margin-left: 0px;
+    }
+    
+    .socials {
+        display: none;
+        width: 129px;
+        height: 27px;
+    
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 27px;
+        /* identical to box height, or 142% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #0E2368;
+    }
+    
+    .socialicons {
+        margin: 0px auto;
+        width: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .socialicons>svg {
+        height: 11px;
+        width: 11px;
+        color: #0E2368;
+    }
+    
+    .conatct-trademark {
+        position: unset;
+        height: 33px;
+        text-align: center;
+        width: auto;
+        margin-top: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8.6px;
+        line-height: 32px;
+        /* or 171% */
+    
+        text-align: center;
+    
+        /* #828B9C */
+    
+        color: #828B9C;
+    }   
+    .contact-social {
+        padding-bottom: 119px;
+    }
+}
